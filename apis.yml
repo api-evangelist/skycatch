@@ -1,21 +1,48 @@
 aid: skycatch
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skycatch.png
 name: Skycatch
-description: 'Skycatch is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Skycatch built spatial data capture, processing, and analytics for mining
+  and construction sites, turning drone and aerial imagery into high-precision 3D
+  data, volumetrics, and AI-driven site insights. Its products included Spatial Sight,
+  Spatial DataHub (datahub.skycatch.com), and EdgeServer for on-site edge processing.
+  Skycatch was acquired by Caterpillar Inc. on July 7, 2026 (following Caterpillar''s
+  RPMGlobal acquisition) to expand its mining technology capabilities. A developer
+  platform exists at docs.skycatch.com but is password-gated, and no public API specification
+  is available. Originally surfaced as a GV (Google Ventures) portfolio company.'
 url: https://raw.githubusercontent.com/api-evangelist/skycatch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - gv
+x-acquired-by: Caterpillar Inc.
+x-acquired-date: '2026-07-07'
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Frontier Tech
+- Drones
+- Aerial Imagery
+- Geospatial
+- 3D Mapping
+- Mining
+- Construction
+- Photogrammetry
+- Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/skycatch-domain-security.yml
+- type: Documentation
+  url: https://docs.skycatch.com
+- type: Login
+  url: https://datahub.skycatch.com
 - type: Website
   url: http://skycatch.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
