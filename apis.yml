@@ -32,6 +32,9 @@ description: 'Skycatch built spatial data capture, processing, and analytics for
   platform exists at docs.skycatch.com but is password-gated, and no public API specification
   is available. Originally surfaced as a GV (Google Ventures) portfolio company.'
 url: https://raw.githubusercontent.com/api-evangelist/skycatch/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "A developer platform exists at docs.skycatch.com but is password-gated, and no public API specification is available."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
