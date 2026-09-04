@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'http://skycatch.com', status: 308, note: 'declared website redirects to https://rpmglobal.com/caterpillar-expands-mining-technology-capabilities-with-skycatch-acquisition/ — a different registrable domain (skycatch.com -> rpmglobal.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skycatch.png
 name: Skycatch
 description: 'Skycatch built spatial data capture, processing, and analytics for mining
